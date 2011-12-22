@@ -1,5 +1,6 @@
 export PATH=~/bin:~/conf/bin:/usr/local/bin:$PATH
 export CLICOLOR=1
+alias grep='grep --color=auto'
 #export LC_CTYPE=ru_RU.UTF-8
 
 set -o vi
