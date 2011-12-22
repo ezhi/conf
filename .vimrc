@@ -16,7 +16,7 @@ set wrap
 set ruler
 set scrolloff=4
 set showmatch
-"set laststatus=2
+set laststatus=2
 
 set fencs=utf8,cp1251,koi8-r
 
