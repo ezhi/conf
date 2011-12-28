@@ -11,14 +11,14 @@ export LSCOLORS="ExGxFxdxCxDxDxhbadExEx"
 alias grep='grep --color=auto'
 
 # completion
-if [ -f /opt/local/etc/bash_completion ]; then
-	. /opt/local/etc/bash_completion
-fi
-
-source `brew --prefix git`/etc/bash_completion.d/git-completion.bash
+export BASH_COMPLETION=~/conf/etc/bash_completion
+export BASH_COMPLETION_DIR=~/conf/etc/bash_completion.d
+export BASH_COMPLETION_COMPAT_DIR=~/conf/etc/bash_completion.d
+source ~/conf/etc/bash_completion
+source ~/conf/etc/git-completion.bash
 
 # prompt
-source ~/conf/bin/preexec.sh
+source ~/conf/etc/preexec.sh
 preexec_install
 
 PS1='\u@\h:\[\e[1;34m\]\W\[\e[m\]$(__git_ps1 " (\[\e[1;32m\]%s\[\e[m\])") \$ '
