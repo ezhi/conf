@@ -3,3 +3,9 @@
 	email = igor.zaytsev@gmail.com
 [color]
 	ui = true
+[core]
+	quotepath = false
+[sendemail]
+	smtpserver = smtp.gmail.com
+	smtpssl = 1
+	smtpuser = igor.zaytsev@gmail.com
