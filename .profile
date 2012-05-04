@@ -26,4 +26,7 @@ PS1='\u@\h:\[\e[1;34m\]\W\[\e[m\]$(__git_ps1 " (\[\e[1;32m\]%s\[\e[m\])") \$ '
 # readline
 set -o vi
 
+# return of ctrl-o
+stty discard undef
+
 [ -f ~/.profile.local ] && source ~/.profile.local
