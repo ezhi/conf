@@ -18,6 +18,7 @@ source ~/conf/etc/bash_completion
 source ~/conf/etc/git-completion.bash
 
 # prompt
+unset PROMPT_COMMAND
 source ~/conf/etc/preexec.sh
 preexec_install
 
