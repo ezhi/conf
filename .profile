@@ -2,7 +2,7 @@
 export PATH=~/bin:~/conf/bin:/usr/local/bin:$PATH
 export PAGER=less
 export EDITOR=vim
-export LESS="less -cR"
+export LESS="-cR"
 
 #export LC_CTYPE=ru_RU.UTF-8
 
