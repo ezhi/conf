@@ -4,6 +4,9 @@ export PAGER=less
 export EDITOR=vim
 export LESS="-cR"
 
+export PERL5LIB=~/perl5/lib/perl5
+export PERL_CPANM_OPT="--local-lib=~/perl5"
+
 #export LC_CTYPE=ru_RU.UTF-8
 
 # colors
